@@ -1,0 +1,38 @@
+REQUIREMENTS OF THE PROJET:
+    -->We are a company that handles book publications.
+    -->this project is deals with book publications. here we get books and publish on the website.
+
+    >>here main objects we need:
+    BOOK:
+    book_ID,Title, author[], Language, publication_date, Num_page, category
+
+    AUTHOUR:
+    Name, id, books[]
+
+    PUBLICATIONS:
+    name, id, books[]
+
+    Based on above data we need to build a API.
+
+    REQUIREMENTS FOR THE BOOK:
+        WE need an API
+        -to get all books
+        -to get specific book
+        -to get a list of books based on category
+        -to get a list of books based on author
+    
+    REQUIREMENTS FOR THE BOOK:
+        WE need an API
+        -to get all authors
+        -to get specific author
+        -to get list of authors based on a book
+
+    REQUIREMENTS FOR THE BOOK:
+        WE need an API
+        -to get all publications
+        -to get specific publications 
+        -to get list of publications based on a book
+NOTE: the above API are only our REQUIREMENTS for this project only. it may differ for oter projects,
+      we can add any no.of API based on our project REQUIREMENTS.
+-For this projects data will be created in seperate Folder called Database and will be retrieved using API's.
+
