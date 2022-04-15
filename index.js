@@ -1,11 +1,23 @@
-//importing dotenv
-require("dotenv").config()
-//importing mangoos
-const mongoose=require("mongoose");
-//importing express
 
-const express= require("express");
-const { join } = require("path");
+
+
+require("dotenv").config();
+
+//importing mangoose
+
+const mongoose=require("mongoose");
+// importing express 
+
+const express=require("express");
+
+// initializing express
+
+const bookie=express();
+
+//using express
+bookie.use(express.json());
+
+;
 
 
 //importing the database
@@ -15,9 +27,9 @@ const database= require("./Database/index");
 //establishing mangoose connectio
 mongoose.connect(process.env.MONGO_URL).then(()=> console.log("connection Esablished"));
 
-const bookie=express();
+//const bookie=express();
 
-bookie.use(express.json());
+//bookie.use(express.json());
 
 //API for getting all books details
 /*
