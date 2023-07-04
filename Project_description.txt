@@ -1,6 +1,6 @@
 REQUIREMENTS OF THE PROJET:
-    -->We are a company that handles book publications.
-    -->this project is deals with book publications. here we get books and publish on the website.
+    * We are a company that handles book publications.
+    * this project is deals with book publications. here we get books and publish on the website.
 
     >>here main objects we need:
     BOOK:
